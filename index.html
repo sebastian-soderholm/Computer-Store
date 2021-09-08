@@ -18,17 +18,17 @@
         <div class="container">
             <div class="col-side" id="col1">
                 <h2>Joe Banker</h2>
-                <p>Balance</p>
+                <p>Balance <span id="funds"></span></p>
                 <button id="loan">Get a loan</button>
             </div>
             
             <div class="col" id="col2">
                 <h2>Work</h2>
-                <p>Pay ...€</p>
+                <p>Pay <span id="earnings"></span></p>
 
                 <button id="bank">Bank</button>
                 <button id="work">Work</button>
-                
+                <button hidden id="repay">Repay Loan</button>
             </div>
 
             <div class="col-side" id="col3">
@@ -41,16 +41,16 @@
 
         <div class="container" id="computer_col">
             <div>
-                <img src="" alt="">
+                <img id="computer_image" width="250" src="" alt="komputer-store-laptop">
             </div>
 
             <div>
-                <h2>Intol Celeroon E10</h2>
-                <p>This laptop...</p>
+                <h2 id="computer_title"></h2>
+                <p id="computer_description"></p>
             </div>
 
             <div>
-                <h3>Pri.ce €</h3>
+                <h3 id="computer_price"></h3>
                 <button id="buy_now">BUY NOW</button>
             </div>
         </div>
