@@ -1,9 +1,9 @@
 body {
   background-color: white;
   font-family: arial;
+  margin: 0;
 }
 header {
-  margin: 0;
   top: 0;
   left: 0;
   background-color: black;
@@ -14,7 +14,7 @@ header {
   z-index: 10;
 }
 header h1 {
-  margin-left: 10%;
+  margin-left: 5%;
   color: white;
 }
 
@@ -55,7 +55,6 @@ header h1 {
   visibility: hidden;
 }
 
-
 button {
   padding: 12px 15px;
   margin: 5px 2px;
@@ -67,7 +66,11 @@ button:hover {
   transition: 0.25s;
   cursor: pointer;
 }
-.laptop-dropdown {
+button {
+  border-radius: 5px;
+}
+.laptop-dropdown
+ {
   width: 100%;
   padding: 5px 10px;
   margin-bottom: 20px;
@@ -107,7 +110,7 @@ table {
 
 footer {
   color: white;
-  padding: 10px;
+  padding: 10px 5% 0 5%;
   background-color: #1e1e1e;
   margin-top: 40px;
   left: 0;
