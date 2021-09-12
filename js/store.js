@@ -3,9 +3,6 @@ import laptopBuy from "./laptop-buy.js";
 import bank from "./bank.js";
 import work from "./work.js";
 
-// const loadingSpinner = document.getElementById("loading_spinner")
-
-
 //Set computers to dropdown menu and init store
 (async () => {
   try {
@@ -29,10 +26,4 @@ async function getComputers() {
   } catch (error) {
     console.log("Error in fetching computer data: ", error);
   }
-}
-
-function toggleLoading() {
-  if(loadingSpinner.style.display == "none") loadingSpinner.style.display = "block";
-  else loadingSpinner.style.display = "none";
-  
 }
